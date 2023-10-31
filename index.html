@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+
+    <!-- Eksternal CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS -->
+    <h1>Inline CSS</h1>
+    <h3 style="color:white; background-color: black;">Belajar Materi CSS</h3>
+
+    <!-- Internal CSS -->
+    <h1>Internal CSS</h1>
+    <h2 id="judul">Internal CSS</h2>
+
+    <!-- Eksternal CSS -->
+    <h1>Ekternal CSS</h1>
+    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut unde quaerat suscipit magnam.
+        Autem architecto
+        animi in, explicabo harum ratione, expedita distinctio magni ea, nesciunt magnam deserunt voluptatum
+        consequuntur ipsa!</p>
+
+    <!-- Box -->
+    <div>
+        <h1>Box</h1>
+        <div class="box border sticky" style="top: 20px; left: 0;">
+            Position Sticky
+        </div>
+        <div class="box border static">
+            Position Static
+        </div>
+        <div class="box outline relative">
+            Position Relative
+            <div class="box border absolute"
+                style="top: 10px; right: 20px; width: auto; height: 20px; background-color: aliceblue;">
+                Absolute
+            </div>
+        </div>
+        <div class="box border fixed" style="top: 0; right: 0;">
+            Position Fixed
+        </div>
+    </div>
+
+    <!-- Overflow -->
+    <h1>Overflow</h1>
+    <div class="wrapper-paragraph overflow-auto">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt fugit vitae debitis, omnis dolore esse suscipit
+        voluptates dolorem saepe dicta recusandae optio corporis vero culpa asperiores consequatur hic libero mollitia
+        nisi totam laudantium laborum? Nisi quis nesciunt amet, dolores temporibus modi corrupti animi odit
+        voluptatibus! Pariatur nesciunt amet voluptatem iure quia hic exercitationem architecto nemo, veniam id aliquam
+        at numquam veritatis error modi similique perferendis voluptate! Suscipit quos qui autem omnis vel? Quia
+        pariatur nostrum praesentium dolores excepturi. Fuga, dolorum inventore. Obcaecati pariatur tempore, natus quasi
+        ipsa illo exercitationem beatae atque nesciunt nostrum cupiditate? Quam impedit reprehenderit doloribus veniam
+        quod, deserunt hic eius et magni, officia deleniti est perferendis inventore fugit sequi tenetur? Odio
+        voluptatum explicabo tempore impedit unde error libero, blanditiis laboriosam natus dolore facere corrupti
+        molestiae reiciendis exercitationem. Vitae magni dolore quibusdam maxime, aperiam eos corporis voluptatum odit
+        deleniti fugit, fugiat autem eius consequuntur dolorem! Voluptatum, incidunt consequatur laborum obcaecati eius
+        quod tempore qui quia veniam cum nihil ipsam ullam animi. Distinctio, accusantium dolor recusandae, id fuga
+        doloribus, sapiente saepe nostrum reprehenderit sequi dolorem deleniti nesciunt incidunt esse dicta optio
+        necessitatibus? Nesciunt quos distinctio aliquid explicabo vero quis atque, dicta numquam minus cupiditate
+        voluptatem ex suscipit quidem reprehenderit.
+    </div>
+
+    <!-- Float -->
+    <div>
+        <h1>Float</h1>
+        <div><img src="https://placehold.co/600x400.png" alt="image" class="float-left image"> Lorem ipsum dolor sit
+            amet, consectetur
+            adipisicing elit. Accusantium sint omnis soluta eos placeat ratione adipisci officia ut sit quia.</div>
+        <div style="margin-top: 20px;"><img src="https://placehold.co/600x400.png" alt="image"
+                class="float-right image"> Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Accusantium sint omnis soluta eos placeat ratione adipisci officia ut sit quia.</div>
+    </div>
+
+    <!-- Display & Visibility -->
+    <div style="margin-top: 100px;">
+        <h1>Display & Visibility</h1>
+        <div class="mini-box block">Display 1</div>
+        <div class="mini-box none">Display 2</div>
+        <div class="mini-box inline-block visibility-hidden">Display 3</div>
+        <div class="mini-box inline-block">Display 4</div>
+        <div class="mini-box inline">Display 5</div>
+    </div>
+
+    <!-- Flex -->
+    <h1>Flex</h1>
+    <div class="flex flex-row flex-wrap justify-content-between">
+        <div class="box-number flex align-item-center justify-content-center">1</div>
+        <div class="box-number flex align-item-center justify-content-center">2</div>
+        <div class="box-number flex align-item-center justify-content-center">3</div>
+        <div class="box-number flex align-item-center justify-content-center">1</div>
+        <div class="box-number flex align-item-center justify-content-center">2</div>
+        <div class="box-number flex align-item-center justify-content-center">3</div>
+        <div class="box-number flex align-item-center justify-content-center">1</div>
+        <div class="box-number flex align-item-center justify-content-center">2</div>
+        <div class="box-number flex align-item-center justify-content-center">3</div>
+        <div class="box-number flex align-item-center justify-content-center">3</div>
+        <div class="box-number flex align-item-center justify-content-center">1</div>
+        <div class="box-number flex align-item-center justify-content-center">2</div>
+        <div class="box-number flex align-item-center justify-content-center">3</div>
+    </div>
+
+    <!-- Font & Text -->
+    <div>
+        <h1>Font & Text</h1>
+        <p class="quotes">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus consectetur nesciunt
+            consequuntur
+            praesentium maxime ipsam magni quo iure repellendus optio!</p>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatem magni maiores
+            dignissimos odio, itaque enim numquam <span class="penting">quibusdam</span> exercitationem cum dolores
+            autem repellendus suscipit culpa,
+            eius tempore ipsa ea, porro quas beatae recusandae ipsum! Sed nemo ea explicabo consequatur ipsum.</p>
+    </div>
+</body>
+
+</html>
