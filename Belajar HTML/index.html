@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Belajar HTML</title>
+</head>
+
+<body>
+    <!-- Paragraph -->
+    <p align="right">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt voluptates odit est aliquam velit vitae facere
+        illo minus voluptatum, obcaecati officiis. Laborum iusto quod quis laboriosam nisi dignissimos, a consequatur?
+    </p>
+    <p align="center">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, minus dolorum aperiam possimus nisi
+        corrupti eum saepe, perferendis et dicta consequuntur id illo eligendi cupiditate quaerat! Quidem, optio.
+        Voluptas, sapiente. Deserunt quibusdam natus vitae a, repellat veniam aspernatur ipsa beatae!
+    </p>
+    <p align="justify">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est doloribus nobis velit numquam aperiam pariatur
+        ratione, deserunt reiciendis omnis delectus facere obcaecati eius aut iusto. Nostrum enim animi consequuntur
+        corporis commodi molestiae omnis non rerum dignissimos ad inventore nemo, voluptates est, perspiciatis minima
+        culpa veritatis in magni. Neque provident consectetur iusto eum repellendus odio dolorum, quisquam distinctio
+        nemo modi rerum.
+    </p>
+
+    <!-- Heading -->
+    <h1>Lorem, ipsum dolor.</h1>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h3>Lorem, ipsum dolor.</h3>
+    <h4>Lorem, ipsum dolor.</h4>
+    <h5>Lorem, ipsum dolor.</h5>
+    <h6>Lorem, ipsum dolor.</h6>
+
+    <!-- Style Text -->
+    <b>Lorem ipsum dolor sit.</b>
+    <i>Lorem ipsum dolor sit amet.</i>
+    <u>Lorem, ipsum dolor.</u>
+    <strike>Lorem ipsum dolor sit amet consectetur adipisicing.</strike>
+    <strong>Lorem ipsum dolor sit amet.</strong>
+    <em>Lorem ipsum dolor sit amet consectetur.</em>
+    <small>Lorem ipsum dolor sit amet consectetur.</small>
+    <mark>Lorem, ipsum dolor.</mark>
+    <del>Lorem ipsum dolor sit amet.</del>
+    <ins>Lorem ipsum dolor sit amet consectetur adipisicing.</ins>
+
+    <!-- List Ordered -->
+    <ol type="A">
+        <li>Rendang</li>
+        <li>Nasi Goreng</li>
+        <li>Sate Ayam</li>
+    </ol>
+
+    <!-- List Unordered -->
+    <ul type="circle">
+        <li>Jus Jeruk</li>
+        <li>Es Kelapa Muda</li>
+        <li>Es Teh</li>
+    </ul>
+
+    <!-- Table -->
+    <table width="50%" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Urutan</th>
+                <th>Mata Pelajaran</th>
+                <th>Jam Ke</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">B Indonesia</td>
+                <td align="center">2</td>
+            </tr>
+        </tbody>
+    </table>
+    <br /> <!-- Tag untuk membuat baris baru -->
+    <table width="50%" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2">Hari</th>
+                <th colspan="2">Jam</th>
+            </tr>
+            <tr>
+                <th>Pertama</th>
+                <th>Kedua</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">Senin</td>
+                <td align="center">B Indonesia</td>
+                <td align="center">Matematika</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br /> <!-- Tag untuk membuat baris baru -->
+
+    <!-- Pengelompokan Media -->
+    <div>
+        <!-- Image -->
+        <img src="images/example-1.png" alt="Example Image" title="600 x 400" width="600" />
+        <img src="images/example-2.png" alt="Example 2" title="200 x 400" width="200" />
+        <img src="https://placehold.co/800x400/grey/white.png" alt="Example Link" title="1000 x 400" width="800" />
+
+        <!-- Video -->
+        <video src="https://file-examples.com/storage/fe1134defc6538ed39b8efa/2017/04/file_example_MP4_480_1_5MG.mp4"
+            width="800" controls></video>
+
+        <br /> <!-- Tag untuk membuat baris baru -->
+
+        <!-- Audio -->
+        <audio src="https://file-examples.com/storage/fe1134defc6538ed39b8efa/2017/11/file_example_MP3_700KB.mp3"
+            controls></audio>
+
+        <br /> <!-- Tag untuk membuat baris baru -->
+    </div>
+
+    <!-- Link -->
+    <a href="link.html" target="_self" title="Contoh Link">Ke halaman link.html</a>
+    <a href="https://www.google.com" target="_blank" title="Google">Pergi ke halaman Google</a>
+
+    <!-- Iframe -->
+    <iframe src="iframe.html" width="100%" height="500"></iframe>
+
+    <!-- Form -->
+    <form action="" method="get">
+        <label for="nama">nama</label><br>
+        <input type="text" id="nama"><br>
+        <label for="password">password</label><br>
+        <input type="password" id="password"><br>
+        <label for="jk">jenis kelamin</label><br>
+        <input type="radio" id="jk" value="pria" checked>Pria<br>
+        <input type="radio" id="jk" value="wanita">Wanita<br>
+        <select name="jenis_kelamin" id="jenis_kelamin">
+            <option>Pria</option>
+            <option>Wanita</option>
+        </select> <br />
+        <label for="artikel">Artikel</label><br>
+        <textarea name="artikel" id="artikel" rows="10" cols="100"></textarea>
+    </form>
+</body>
+
+</html>
